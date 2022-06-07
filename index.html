@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+    <!-- Iconos de font awesome -->
+    <script src="https://kit.fontawesome.com/c240356f39.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">Contáctame</h1>
+        <div class="grupo-contacto">
+            <div class="form-contacto">
+                <h3>Contactame</h3>
+                <form action="">
+                    <p>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </p>
+                    <p>
+                        <label for="correo">Correo</label>
+                        <input type="email" name="correo" id="correo">
+                    </p>
+                    <p>
+                        <label for="Celular">Celular</label>
+                        <input type="tel" pattern="[0-9]{3} - [0-9]{3} - [0-9]{3}" name="celular" id="celular" required>
+                    </p>
+                    <p>
+                        <label for="asunto">Asunto</label>
+                        <input type="text" name="asunto" id="asunto">
+                    </p>
+                    <p>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" rows="3"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Enviar</button>
+                    </p>
+                </form>
+            </div>
+            <div class="info-contacto">
+                <h4>Más información</h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> Perú</li>
+                    <li><i class="fa-solid fa-phone"></i> 944903904</li>
+                    <li><i class="fa-solid fa-envelope-opne-text"></i> bustillosd402@gmail.com</li>
+                </ul>
+                <p>Formulario creado por Daniel Bustillos Villar</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
